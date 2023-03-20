@@ -1,4 +1,4 @@
-# A-simple-weekly-javascript-challenges
+# A-weekly-javascript-challenges
 This repository has a bunch of challenges using html and css and pure JavaScript
 
 1-guess_my_number
