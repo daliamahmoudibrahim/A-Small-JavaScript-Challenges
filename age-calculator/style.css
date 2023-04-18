@@ -1,0 +1,118 @@
+@font-face {
+    font-family:mainfont;
+    src: url(assets/fonts/Poppins-Bold.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color:hsl(228, 45%, 44%);
+}
+body{
+    background-color:gainsboro;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: mainfont;
+}
+
+.Agecalc{
+    width: 50vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px 10px 150px 10px;
+    padding: 1% 3%;
+    margin-bottom: 2vh;
+
+     
+}
+.inputs{
+  padding: 20px 0px ;
+  display: flex;
+
+}
+.inputs .elem{
+width: 30%;
+ display: flex;
+ flex-direction: column;
+ margin-left: 1% ;
+}
+.elem label{
+    font-size: 13px;
+    color: gray;
+}
+.elem input{
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(206, 206, 206);
+    color: gray;
+
+}
+.elem span{
+    color: red;
+    font-size: 10px;
+}
+.elem label.invalid{
+    border-color:0.5px solid red;
+    background-color: green;
+    color: red;
+}
+.inputs input.invalid:focus{
+    border-color: red;
+}
+.inputs input:focus{
+ border-color: var(--main-color);
+}
+
+.middle{
+  /* width: 90%; */
+  display: flex;
+  flex-wrap: nowrap;
+  /* margin: auto; */
+}
+hr{
+    color: rgb(206, 206, 206);
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+}
+img{
+   background-color:var(--main-color);
+   border-radius: 50%;
+   padding: 3px;
+   position: relative;
+   top:10px;
+   right: 25px;
+}
+
+
+.AgeOutput div{
+    display: flex;
+    padding: 3%;
+    font-size: 30px;
+    
+}
+.AgeOutput div h2{
+    margin-right: 4px;
+    color: var(--main-color);
+}
+
+@media (max-width: 768px){
+    .Agecalc{
+        width: 90%;
+        height: 75vh;
+        padding: 5%;
+    }
+   img{
+        font-size:11px;
+        width: 40px;
+        right: 50%;
+        top: 0;
+    }
+}
