@@ -15,3 +15,7 @@ https://daliamahmoudibrahim.github.io/A-Small-JavaScript-Challenges/pig_game/
 3-Age-Calculator
 enter birthday and ouput your age (years , months, days)
 https://daliamahmoudibrahim.github.io/A-Small-JavaScript-Challenges/age-calculator/
+
+4-joke-teller
+project using API text-to-speech and joke 
+https://daliamahmoudibrahim.github.io/A-Small-JavaScript-Challenges/JokeTellerProject
