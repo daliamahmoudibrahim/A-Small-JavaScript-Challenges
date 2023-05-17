@@ -19,3 +19,6 @@ https://daliamahmoudibrahim.github.io/A-Small-JavaScript-Challenges/age-calculat
 4-joke-teller
 project using API text-to-speech and joke 
 https://daliamahmoudibrahim.github.io/A-Small-JavaScript-Challenges/JokeTellerProject
+
+5-Light_Dark Mode Project
+https://daliamahmoudibrahim.github.io/A-Small-JavaScript-Challenges/Light_Dark%20Mode%20project/
