@@ -46,7 +46,7 @@ const style = (data)=>{
 /////////////////////Fetch Api////////////////
 async function WeatherApp (country){
     
-    const ApiUrl = `http://api.weatherapi.com/v1/current.json?key=b96e31ae219a40cda35204836230306&q=${country}&aqi=yes`;
+    const ApiUrl = `https://api.weatherapi.com/v1/current.json?key=b96e31ae219a40cda35204836230306&q=${country}&aqi=yes`;
 
      try{
         const response = await fetch(ApiUrl); 
