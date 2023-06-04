@@ -17,11 +17,7 @@ const data = document.querySelector('.data');
 /////////////// The Country////////////////
 
 let country = (Intl.DateTimeFormat().resolvedOptions().timeZone.split('/')[1]);
-if(errorMessage.textContent.length === 0){
-    WeatherApp(country);
-}else{
-    test.classList.add('diplay');
-}
+ WeatherApp(country);
 // WeatherApp(country);
 const Appearance = ()=>{
   country = inputEl.value;
