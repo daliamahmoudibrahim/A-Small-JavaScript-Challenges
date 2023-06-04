@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <h2><i class="fa-solid fa-cloud-sun"></i>Current Weather</h2>
+    <div class="search-part">
+        <input type="text" id="inputEl">
+        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+    </div>
+    <h2 id="error"></h2>
+    <div class="Weather-app" >
+            <div id="icon"></div>
+            <div id="informations">
+                <h3 id="countryName"></h3>
+                <h3 id="condition"></h3>
+                <h3 id="localTime"></h3>
+                <h3 id="temp"></h3>
+            </div>
+            <div id="wind">
+                    <h5 class="precip_in"></h5>
+                    <h5 class="wind"></h5>
+                    <h5 class="humidity"></h5>
+            </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
