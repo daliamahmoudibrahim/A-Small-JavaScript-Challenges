@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: burlywood;
+    letter-spacing: 2px;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    /* height: calc(100% - h1); */
+}
+.container #overlay{
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(247, 194, 114, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     visibility: hidden;
+
+}
+
+.container #overlay #imgOverlayBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    background-color: white;
+    height: 80%;
+
+}
+.container #overlay #imgOverlayBackground img{
+     height: 60%;
+     object-fit: cover;
+     width: 60%;
+}
+.container #overlay i{
+    color: white;
+    font-size: 4rem;
+    /* padding: 0px 40px; */
+}
+.container #overlay .fa-chevron-left{
+    padding-left: 40px;
+}
+.container #overlay .fa-angle-right{
+    padding-right: 40px;
+}
+.container{
+    
+    display: flex;
+    /* background-color: gray; */
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.container>img {
+    margin-bottom: 5px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 320px;
+    height: 40%;
+}
+
