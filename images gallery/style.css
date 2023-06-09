@@ -46,9 +46,9 @@ h1{
 
 }
 .container #overlay #imgOverlayBackground img{
-     height: 60%;
+     height: 70%;
      object-fit: cover;
-     width: 60%;
+     width: 70%;
 }
 .container #overlay i{
     color: white;
@@ -79,3 +79,23 @@ h1{
     height: 40%;
 }
 
+@media screen and (max-width:700px) {
+    .container #overlay #imgOverlayBackground{
+        width: 95%;
+        height: 95%;
+    }
+    .container #overlay #imgOverlayBackground img{
+        height: 90%;
+        object-fit: cover;
+        width: 90%;
+   }
+   .container>img{
+    width: 350px;
+   }
+   .container #overlay .fa-chevron-left{
+    padding-left: 20px;
+}
+.container #overlay .fa-angle-right{
+    padding-right: 20px;
+}
+}
